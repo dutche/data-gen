@@ -1,9 +1,11 @@
-import time
 import threading
-import requests
-import pytest
+import time
+
 import polars as pl
+import pytest
+import requests
 from uvicorn import Config, Server
+
 from app.main import app
 
 API_URL = "http://127.0.0.1:8000/analyze/"
