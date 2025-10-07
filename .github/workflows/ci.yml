@@ -47,3 +47,7 @@ jobs:
       - name: Run HTTP API tests
         run: |
           uv run pytest tests/test_api_http.py --maxfail=1 --disable-warnings -v
+
+      - name: Run coverage
+        run: |
+          uv run pytest --cov=app tests/ --cov-report=term-missing
