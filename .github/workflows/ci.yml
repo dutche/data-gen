@@ -24,6 +24,7 @@ jobs:
 
       - name: Install dependencies via uv
         run: |
+          uv venv
           uv pip install -r pyproject.toml
           uv pip install pytest pytest-cov httpx uvicorn ruff
 
