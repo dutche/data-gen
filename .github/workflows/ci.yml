@@ -33,7 +33,7 @@ jobs:
 
       - name: Lint with ruff
         run: |
-          ruff check app tests
+          uvx ruff check app tests
 
       - name: Run unit tests
         run: |
