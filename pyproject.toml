@@ -1,0 +1,13 @@
+[project]
+name = "data-gen"
+version = "0.1.0"
+description = "Génération de données grâce à l'IA"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi[standard]>=0.118.0",
+    "pandas>=2.3.3",
+    "polars>=1.33.1",
+    "pytest>=8.4.2",
+    "requests>=2.32.5",
+]

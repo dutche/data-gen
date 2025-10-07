@@ -1,0 +1,10 @@
+---
+title: toto à la plage
+format: pdf
+---
+
+# Explications
+
+Pour voir si on peut faire du latex en direct.
+
+$$f(x) = a*x + b*x² + c*x³$$
